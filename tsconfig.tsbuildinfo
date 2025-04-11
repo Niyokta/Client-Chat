@@ -1,0 +1,1 @@
+{"root":["./src/index.ts","./src/Config/fbconfig.ts","./src/CustomTypes/messageTypes.ts","./src/CustomTypes/roomTypes.ts","./src/Handlers/messageHandler.ts","./src/Handlers/roomHandler.ts","./src/Routes/Message.ts","./src/Routes/Room.ts","./src/Routes/index.ts"],"version":"5.8.2"}

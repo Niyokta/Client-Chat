@@ -12,6 +12,7 @@ export async function getChatHistory(roomId:string){
         messagedata["id"]=messageid;
         messages.push(messagedata);
     })
+    messages.sort((a, b) => new Date(a.timeStamp).getTime() - new Date(b.timeStamp).getTime());
     return messages;
 }
 

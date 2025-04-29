@@ -4,7 +4,7 @@ import { mainRouter } from "./Routes";
 import dotenv from "dotenv"
 dotenv.config()
 const app=express();
-const PORT=process.env.CLIENTCHATPORT || 5001
+const PORT=process.env.CLIENTCHATPORT || 3001
 
 app.use(cors())
 app.use(express.json())
